@@ -1,0 +1,244 @@
+/* Universal Styles */
+
+html {
+    font-family: "helvetica", sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.main-content {
+    position: relative;
+    top: 5.3125rem;
+    margin: auto 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px seashell;
+    background-color: black;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.43rem 3rem;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2rem; /* Better spacing instead of large padding */
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    padding-left: 3.5rem;
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 0.85rem;
+    color: seashell;
+    text-decoration: none;
+}
+
+
+/* Our-mission-content */
+#our-mission {
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+    height: 31.81rem;
+    width: 100%;
+    background-image: url('../images/img-mission-background.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#our-mission .banner {
+    
+}
+
+#our-mission .header {
+    background-color: black;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#our-mission h2 {
+    margin-bottom: 0.5rem;
+}
+
+#our-mission h4 {
+    margin: 0 20px;
+}
+
+/* Tea-of-the-month section */
+#tea-of-the-month {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#tea-of-the-month h2 {
+  
+}
+
+#tea-of-the-month h4 {
+
+}
+
+.feature-container {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 0 160px;
+}
+
+.feature {
+    padding: 10px 20px ;
+
+}
+
+.feature .image-container {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+
+.feature h4 {
+    margin-top: 10px;
+}
+
+.feature .content {
+    
+}
+
+/* Locations section */
+#locations {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 22.72rem; 
+  background-image: url('../images/img-locations-background.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+#locations h2 {
+    margin-bottom: 0;
+}
+
+#locations .locations-container{
+    display: flex;
+    margin: 15px;
+    flex-wrap: wrap; /* Ensures cards don't get squeezed */
+    justify-content: center; /* Centers the cards */
+    width: 100%;
+    max-width: 1200px; /* Prevents cards from being too wide */
+    
+}
+
+.locations-container .location-card{
+    background-color: black;
+    background-size:cover;
+    background-position: center;
+    padding: 20px;
+    margin: 0 20px 20px;
+    width: 13.75rem;
+    opacity: 1;
+}
+
+
+/* Contact section */
+#contact {
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#contact .name {
+    margin-bottom: 2rem;
+}
+
+#contact .email {
+
+}
+
+#contact .number {
+
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: left;
+    height: 150px;
+    padding-left: 20px;
+    width: 100%;
+    position: relative;
+}
+
+footer .content {
+    display: flex;
+    font-size: .75rem;
+  }
+
+footer .copyright {
+    flex-grow: 1;
+}
